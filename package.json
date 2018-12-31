@@ -1,0 +1,32 @@
+{
+  "name": "version-vector",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest ./src/spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ok2ju/version-vector.git"
+  },
+  "keywords": [],
+  "author": "Alexey Vakulich <alexey.vakulich@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ok2ju/version-vector/issues"
+  },
+  "homepage": "https://github.com/ok2ju/version-vector#readme",
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "standard": "*"
+  },
+  "standard": {
+    "globals": [
+      "describe",
+      "beforeEach",
+      "it",
+      "expect"
+    ]
+  }
+}
